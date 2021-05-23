@@ -1,0 +1,41 @@
+.card {
+  width: 25rem;
+  max-height: 18rem;
+}
+
+.foto_carnet {
+  width: 7.5rem;
+  height: 7.8rem;
+  border-radius: 100%;
+  margin-bottom: 1.5rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  transform: translateY(-18px);
+  transition: box-shadow 1s;
+}
+
+.foto_carnet:hover {
+  box-shadow: 6px 6px 10px dodgerblue;
+}
+
+@media screen and (max-width: 765px) {
+  .foto_carnet {
+    width: 7.5rem;
+    height: 7.8rem;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.redes_sociales > a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: rgb(201, 196, 196);
+}
